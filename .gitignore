@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Let git walk into directories
+!*/
+
+# Keep the ignore file itself
+!.gitignore
+
+# Track only notes.md files (any depth)
+!notes.md
+!*/notes.md
